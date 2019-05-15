@@ -1,0 +1,70 @@
+{
+	"related_symptoms": ["dizziness", "hungry"],
+	"threads": {
+		"low blood sugar": [{
+			"type1": "yes",
+			"type2": "yes",
+			"title": "Diabetes?",
+			"body": "Mosts posts and doctors always talk about what to due in a low blood sugar situation. As a type 1 diabetic I know what to eat and take to raise my blood sugar. My issue is what to do after the low blood sugar crash and I have elevated it. Does anyone have any remedies for the next day after you had a low blood sugar crash at night? On nights I go to the gym my blood sugar sometimes crashes. I wake up and eat but then the next day Iam left with a hangover feeling, cloudy brain and almost toxic. As if I was out drinking all night and got no sleep. As a working individual I do not have the option of calling in sick and staying in bedI have not once seen an article talking about the after effects of low blood sugar and how to treat that. I know I cant be the only diabetic that goes through this.Any suggestions?",
+			"replies": ["Yes, this is working", "No, it ain't"]
+		}, {
+			"type1": "yes",
+			"type2": "yes",
+			"title": "Diabetes?",
+			"body": "Low blood sugar levels are a serious health risk, but researchers report that a new nasal powder quickly reverses the effects of this dangerous condition. And better yet, it can be administered even when someone is unconscious.You can read more about the nasal powder and how it works, here:  What are your thoughts?",
+			"replies": ["Yes, this is working", "No, it ain't"]
+		}],
+		"dizziness": [{
+			"type1": "yes",
+			"type2": "yes",
+			"title": "Diabetes?",
+			"body": "Mosts posts and doctors always talk about what to due in a low blood sugar situation. As a type 1 diabetic I know what to eat and take to raise my blood sugar. My issue is what to do after the low blood sugar crash and I have elevated it. Does anyone have any remedies for the next day after you had a low blood sugar crash at night? On nights I go to the gym my blood sugar sometimes crashes. I wake up and eat but then the next day Iam left with a hangover feeling, cloudy brain and almost toxic. As if I was out drinking all night and got no sleep. As a working individual I do not have the option of calling in sick and staying in bedI have not once seen an article talking about the after effects of low blood sugar and how to treat that. I know I cant be the only diabetic that goes through this.Any suggestions?",
+			"replies": ["Yes, this is working", "No, it ain't"]
+		}, {
+			"type1": "yes",
+			"type2": "yes",
+			"title": "Diabetes?",
+			"body": "Low blood sugar levels are a serious health risk, but researchers report that a new nasal powder quickly reverses the effects of this dangerous condition. And better yet, it can be administered even when someone is unconscious.You can read more about the nasal powder and how it works, here:  What are your thoughts?",
+			"replies": ["Yes, this is working", "No, it ain't"]
+		}],
+		"hungry": [{
+			"type1": "yes",
+			"type2": "yes",
+			"title": "Diabetes?",
+			"body": "Mosts posts and doctors always talk about what to due in a low blood sugar situation. As a type 1 diabetic I know what to eat and take to raise my blood sugar. My issue is what to do after the low blood sugar crash and I have elevated it. Does anyone have any remedies for the next day after you had a low blood sugar crash at night? On nights I go to the gym my blood sugar sometimes crashes. I wake up and eat but then the next day Iam left with a hangover feeling, cloudy brain and almost toxic. As if I was out drinking all night and got no sleep. As a working individual I do not have the option of calling in sick and staying in bedI have not once seen an article talking about the after effects of low blood sugar and how to treat that. I know I cant be the only diabetic that goes through this.Any suggestions?",
+			"replies": ["Yes, this is working", "No, it ain't"]
+		}, {
+			"type1": "yes",
+			"type2": "yes",
+			"title": "Diabetes?",
+			"body": "Low blood sugar levels are a serious health risk, but researchers report that a new nasal powder quickly reverses the effects of this dangerous condition. And better yet, it can be administered even when someone is unconscious.You can read more about the nasal powder and how it works, here:  What are your thoughts?",
+			"replies": ["Yes, this is working", "No, it ain't"]
+		}],
+		"blur vision": [{
+			"type1": "yes",
+			"type2": "yes",
+			"title": "Diabetes?",
+			"body": "Mosts posts and doctors always talk about what to due in a low blood sugar situation. As a type 1 diabetic I know what to eat and take to raise my blood sugar. My issue is what to do after the low blood sugar crash and I have elevated it. Does anyone have any remedies for the next day after you had a low blood sugar crash at night? On nights I go to the gym my blood sugar sometimes crashes. I wake up and eat but then the next day Iam left with a hangover feeling, cloudy brain and almost toxic. As if I was out drinking all night and got no sleep. As a working individual I do not have the option of calling in sick and staying in bedI have not once seen an article talking about the after effects of low blood sugar and how to treat that. I know I cant be the only diabetic that goes through this.Any suggestions?",
+			"replies": ["Yes, this is working", "No, it ain't"]
+		}, {
+			"type1": "yes",
+			"type2": "yes",
+			"title": "Diabetes?",
+			"body": "Low blood sugar levels are a serious health risk, but researchers report that a new nasal powder quickly reverses the effects of this dangerous condition. And better yet, it can be administered even when someone is unconscious.You can read more about the nasal powder and how it works, here:  What are your thoughts?",
+			"replies": ["Yes, this is working", "No, it ain't"]
+		}],
+		"thirsty throat": [{
+			"type1": "yes",
+			"type2": "yes",
+			"title": "Diabetes?",
+			"body": "Mosts posts and doctors always talk about what to due in a low blood sugar situation. As a type 1 diabetic I know what to eat and take to raise my blood sugar. My issue is what to do after the low blood sugar crash and I have elevated it. Does anyone have any remedies for the next day after you had a low blood sugar crash at night? On nights I go to the gym my blood sugar sometimes crashes. I wake up and eat but then the next day Iam left with a hangover feeling, cloudy brain and almost toxic. As if I was out drinking all night and got no sleep. As a working individual I do not have the option of calling in sick and staying in bedI have not once seen an article talking about the after effects of low blood sugar and how to treat that. I know I cant be the only diabetic that goes through this.Any suggestions?",
+			"replies": ["Yes, this is working", "No, it ain't"]
+		}, {
+			"type1": "yes",
+			"type2": "yes",
+			"title": "Diabetes?",
+			"body": "Low blood sugar levels are a serious health risk, but researchers report that a new nasal powder quickly reverses the effects of this dangerous condition. And better yet, it can be administered even when someone is unconscious.You can read more about the nasal powder and how it works, here:  What are your thoughts?",
+			"replies": ["Yes, this is working", "No, it ain't"]
+		}]
+	}
+}

@@ -1,0 +1,93 @@
+/* Author: Kaushik */ 
+
+.fa, .fab, .fal, .far, .fas {
+    line-height: 2;
+}
+
+.search-icon{
+    border: 2px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: lightseagreen
+}
+
+.main-container{
+    padding:20px;
+}
+
+.search-form{
+    background-color: aliceblue;
+    padding:5px;
+    line-height: 2;
+}
+
+.checkbox{
+    display:inline-block;
+    padding-left: 10px;
+}
+
+.readmore-btn
+{
+    float: right;
+    padding: 3px;
+}
+
+.post-message{
+    float:left;
+}
+
+.inbox-chat-col{
+    padding:0px;
+}
+
+.radio-inline{
+    margin-right:10px;
+}
+/*chat*/
+
+.chat_ib {
+  float: left;
+  padding: 0 0 0 15px;
+  width: 88%;
+}
+
+.chat_list {
+    border-bottom: 1px solid #c4c4c4;
+    margin: 0;
+    padding: 18px 16px 10px;
+  }
+
+.chat_people{ overflow:hidden; clear:both;}
+
+.inbox_chat { max-height: 650px; overflow-y: scroll;}
+
+.active_chat{ background:#ebebeb; border-top: 2px solid white}
+
+.messaging { padding: 0 0 50px 0;}
+
+.chat_ib h5 span {
+    font-size: 13px;
+    float: right;
+}
+
+.th-title {
+    font-size:15pt;
+    font-weight: bold;
+}
+
+.sym-text{
+    font-size: 15pt;
+}
+
+.inbox_chat {
+    max-height: 750px;
+}
+
+/* Rishab styles */
+.black-background {
+    background-color: black;
+}
+
+.white-text {
+    color: white;
+}

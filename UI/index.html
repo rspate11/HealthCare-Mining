@@ -1,0 +1,177 @@
+<!-- Author: Kaushik -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Diabetes Forums Mining</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="threads.js"></script>
+</head>
+
+<body onload="getThreads()">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <div class="row pt-md-5">
+                <div class="col-md-12">
+                    <h3><strong>Your Dashboard</strong></h3>
+                </div>
+            </div>
+        <br>
+        <div class="row search-form">
+            <!-- Search form -->
+            <div class="col-md-2">
+                <span class="text-center pl-md-5"><strong>Type Filters:</strong></span>
+            </div>
+            <div class="col-md-6 pl-md-0">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="DiabetesType" id="t1" value="t1" onclick="onFilterSelected()" checked>
+                    <label class="form-check-label" for="t1">
+                        Type 1 Diabetes
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="DiabetesType" id="t2" value="t2" onclick="onFilterSelected()">
+                    <label class="form-check-label" for="t2">
+                        Type 2 Diabetes
+                    </label>
+                </div>
+                <div class="form-check disabled form-check-inline">
+                    <input class="form-check-input" type="radio" name="DiabetesType" id="tBoth" value="tBoth" onclick="onFilterSelected()">
+                    <label class="form-check-label" for="tBoth">
+                        Both Types of Diabetes
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-4 input-group">
+                <input id="search-text" type="text" class="form-control" name="search-text" placeholder="a symptom or condition...">
+                <span class="input-group-addon search-icon">&nbsp;&nbsp;<i class="fas fa-search" onclick="searchThreads($('#search-text').val())"></i>&nbsp;&nbsp;</span>
+            </div>
+        </div>
+        <div class="row" style="display:none" id="results">
+            <h5>Showing results for <span style="color:dodgerblue" id="q">"low blood sugar"</span></h5>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-9 inbox-chat-col pb-md-4 pt-md-4">
+                        <h4>Discussion Threads</h4>
+                            <div class="inbox_chat" id="loader" style="display:none">
+                                <div class="chat_list active_chat">
+                                    <div class="chat_people">
+                                        <div class="chat_ib">
+                                            <h5>Feeling low levels but levels are fine</h5>
+                                            <p class='post-message'>Over the past year I have been feeling increasingly dizzy, lightheaded and having the most horrible headaches. For the past week or so I have decided to track my levels, although on a not consistent basis. And I test when I start feeling the symptoms but my levels are still in the 113 range. I am getting frustrated with feeling this way and having no answers. If anyone could give some insight it would be much appreciated.</p>
+                                            <button type="button" class="readmore-btn btn-lg btn btn-primary" data-toggle="collapse" data-target="#t1">+See Thread</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="t1" data-toggle="false" class="collapse">
+                                    <div class="chat_list">
+                                        <div class="chat_people">
+                                            <div class="chat_ib">
+                                                <h5>RE: Could I have low blood sugar? </h5>
+                                                <p>Although your symptoms "suggest" diabetes, there are some conditions that can "mimic" diabetes (hyperglycemia) or hypoglycemia. Taking drugs like anti-inflammatories (steroids) or anti-psychotics can cause symptoms similar to what you describe (but your doctor would already know this). Cushing's disease. Pancreatitis is another. Bottomline: Your symptoms, if chronic, should be investigated by your doctor, asap. Tests must be run.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="chat_list active_chat">
+                                    <div class="chat_people">
+                                        <div class="chat_ib">
+                                            <h5>Could I have low blood sugar?<span class="chat_date"></span></h5>
+                                            <p class='post-message'>
+                                                Hi,
+                                                I am concerned about having low-blood sugar as I am experiencing some symptoms which fit in with this illness. I haven't sought professional help yet, as I not sure whether to or not. So, I thought I would post this to the message boards.
+
+                                                I am experiencing these symptoms:
+                                                    - Shaking and cold chills
+                                                    - Relentless <span class="badge badge-warning">headache</span> (worse when I cough or bend)
+                                                    - Moody and irritable
+                                                    - No appetite
+                                                    - Nausea
+                                                    - <span class="badge badge-danger">lightheaded</span>
+                                                    - Tiredness and weakness
+                                                    - <span class="badge badge-success">Dizziness</span>
+                                                    - Trouble sleeping (waking early around 3 am)
+                                                    - <span class="badge badge-primary">Sweat</span>ing profusely
+                                                    - Night <span class="badge badge-primary">sweats</span>
+
+                                                    What makes me suspect that I have low-blood sugar is that when i experience these symptoms, I feel better when I eat or drink something with sugar or heavy carbs. When I start getting these symptoms my headache suddenly comes on and then when I consume sugary foods it goes away instantly.
+
+                                                    I appreciate any help with with this.
+                                                Thanks,
+
+                                                Imogen.
+                                            </p>
+                                            <button type="button" class="readmore-btn btn-lg btn btn-primary" data-toggle="collapse" data-target="#t2">+See Thread</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="t2" data-toggle="false">
+                                    <div class="chat_list">
+                                        <div class="chat_people">
+                                            <div class="chat_ib">
+                                                <h5>RE: Could I have low blood sugar? <span class="chat_date"></span></h5>
+                                                <p>Although your symptoms "suggest" diabetes, there are some conditions that can "mimic" diabetes (hyperglycemia) or hypoglycemia. Taking drugs like anti-inflammatories (steroids) or anti-psychotics can cause symptoms similar to what you describe (but your doctor would already know this). Cushing's disease. Pancreatitis is another. Bottomline: Your symptoms, if chronic, should be investigated by your doctor, asap. Tests must be run.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 " id="b" style = "display:none">
+                            </br>
+                            <h4>Related Symptoms</h4>
+                            <ul>
+                                <li><span class="badge badge-success">Dizziness</span> </li>
+                                <li><span class="badge badge-warning">Lightheadedness</span> </li>
+                                <li><span class="badge badge-danger">Sweats</span> </li>
+                                <li><span class="badge badge-primary">Headaches</span> </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 sym-text" id="a" style = "display:none" >
+                            </br>
+                            <h4 id="ah">Common Symptoms</h4>
+                            <h4 id="bh" style = "display:none" >Related Symptoms</h4>
+                                    <ul>
+                                        <li id="l1" style = "display:none"><span class="badge badge-success" style = "display:none" id="s1">Dizziness</span> </li>
+                                        <li id="l2" style = "display:none" class="pt-md-2"><span class="badge badge-warning" style = "display:none" id="s2">Dizziness</span> </li>
+                                        <li id="l3" style = "display:none" class="pt-md-2"><span class="badge badge-danger" style = "display:none" id="s3">Dizziness</span> </li>
+                                        <li id="l4" style = "display:none" class="pt-md-2"><span class="badge badge-primary" style = "display:none" id="s4">Dizziness</span> </li>
+                                        <li id="l5" style = "display:none" class="pt-md-2"><span class="badge badge-success" style = "display:none" id="s5">Dizziness</span> </li>
+                                        <li id="l6" style = "display:none" class="pt-md-2"><span class="badge badge-warning" style = "display:none" id="s6">Dizziness</span> </li>
+                                        <li id="l7" style = "display:none" class="pt-md-2"><span class="badge badge-danger" style = "display:none" id="s7">Dizziness</span> </li>
+                                        <li id="l8" style = "display:none" class="pt-md-2"><span class="badge badge-primary" style = "display:none" id="s8">Dizziness</span> </li>
+                                        <li id="l9" style = "display:none" class="pt-md-2"><span class="badge badge-success" style = "display:none" id="s9">Dizziness</span> </li>
+                                        <li id="l10" style = "display:none" class="pt-md-2"><span class="badge badge-warning" style = "display:none" id="s10">Dizziness</span> </li>
+                                        <li id="l11" style = "display:none" class="pt-md-2"><span class="badge badge-danger" style = "display:none" id="s11">Dizziness</span> </li>
+                                        <li id="l12" style = "display:none" class="pt-md-2"><span class="badge badge-primary" style = "display:none" id="s12">Dizziness</span> </li>
+                                        <li id="l13" style = "display:none" class="pt-md-2"><span class="badge badge-success" style = "display:none" id="s13">Dizziness</span> </li>
+                                        <li id="l14" style = "display:none" class="pt-md-2"><span class="badge badge-warning" style = "display:none" id="s14">Dizziness</span> </li>
+                                        <li id="l15" style = "display:none" class="pt-md-2"><span class="badge badge-danger" style = "display:none" id="s15">Dizziness</span> </li>
+                                        <li id="l16" style = "display:none" class="pt-md-2"><span class="badge badge-primary" style = "display:none" id="s16">Dizziness</span> </li>
+                                        <li id="l17" style = "display:none" class="pt-md-2"><span class="badge badge-success" style = "display:none" id="s17">Dizziness</span> </li>
+                                        <li id="l18" style = "display:none" class="pt-md-2"><span class="badge badge-warning" style = "display:none" id="s18">Dizziness</span> </li>
+                                        <li id="l19" style = "display:none" class="pt-md-2"><span class="badge badge-danger" style = "display:none" id="s19">Dizziness</span> </li>
+                                        <li id="l20" style = "display:none" class="pt-md-2"><span class="badge badge-primary" style = "display:none" id="s20">Dizziness</span> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+</script>
+</html>

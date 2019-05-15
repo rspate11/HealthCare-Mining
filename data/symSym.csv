@@ -1,0 +1,19 @@
+rows,Weight loss,nause,Frequent urination,Fatigue,tiredness,itchy skin,dry mouth,Infections,Excessive thirst,Tingling,Dry Skin,Extreme hunger,numbness hands,Blurry vision,Sudden vision changes,vomitting,numbness feet,Sores
+Frequent urination,262,262,262,262,207,141,2,1,1,0,0,0,0,0,0,0,0,0
+Excessive thirst,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+Extreme hunger,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sudden vision changes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Tingling,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+numbness hands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+numbness feet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tiredness,207,207,207,207,207,141,2,1,1,0,0,0,0,0,0,0,0,0
+Dry Skin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sores,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infections,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Fatigue,262,262,262,262,207,141,2,1,1,0,0,0,0,0,0,0,0,0
+Blurry vision,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Weight loss,286,262,262,262,207,141,2,1,1,0,0,0,0,0,0,0,0,0
+dry mouth,2,2,2,2,2,1,2,0,0,0,0,0,0,0,0,0,0,0
+itchy skin,141,141,141,141,141,141,1,1,1,0,0,0,0,0,0,0,0,0
+vomitting,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+nause,262,262,262,262,207,141,2,1,1,0,0,0,0,0,0,0,0,0
